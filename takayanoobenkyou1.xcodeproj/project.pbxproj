@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA991291224B945C001BD966 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA991290224B945C001BD966 /* main.storyboard */; };
-		BABF16562244EC42002A368F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF16552244EC42002A368F /* AppDelegate.swift */; };
-		BABF16582244EC42002A368F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF16572244EC42002A368F /* ViewController.swift */; };
-		BABF165D2244EC44002A368F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABF165C2244EC44002A368F /* Assets.xcassets */; };
+		BA99129D225219E6001BD966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA99129A225219E6001BD966 /* AppDelegate.swift */; };
+		BA99129E225219E6001BD966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA99129B225219E6001BD966 /* ViewController.swift */; };
+		BAAB1E1C2252300400FF044A /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB1E1B22522AB400FF044A /* main.storyboard */; };
+		BAAB1E1F2252312600FF044A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABF165C2244EC44002A368F /* Assets.xcassets */; };
+		BAAB1E212252326900FF044A /* GAK86_hutounokuroneko_TP_V4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAAB1E202252326900FF044A /* GAK86_hutounokuroneko_TP_V4.jpg */; };
+		BAAB1E232252327400FF044A /* tom190303DSC03603_TP_V4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAAB1E222252327400FF044A /* tom190303DSC03603_TP_V4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA991290224B945C001BD966 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		BA99129622521818001BD966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA99129A225219E6001BD966 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA99129B225219E6001BD966 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA9912A022521B7C001BD966 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAB1E1B22522AB400FF044A /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = main.storyboard; path = /Users/takaya/git/XcodeTestApp/main.storyboard; sourceTree = "<absolute>"; };
+		BAAB1E202252326900FF044A /* GAK86_hutounokuroneko_TP_V4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GAK86_hutounokuroneko_TP_V4.jpg; path = Assets.xcassets/GAK86_hutounokuroneko_TP_V4.jpg; sourceTree = SOURCE_ROOT; };
+		BAAB1E222252327400FF044A /* tom190303DSC03603_TP_V4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tom190303DSC03603_TP_V4.jpg; path = Assets.xcassets/tom190303DSC03603_TP_V4.jpg; sourceTree = SOURCE_ROOT; };
 		BABF16522244EC42002A368F /* takayanoobenkyou1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takayanoobenkyou1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BABF16552244EC42002A368F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BABF16572244EC42002A368F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BABF165C2244EC44002A368F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BABF16612244EC44002A368F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,11 @@
 		BABF16492244EC42002A368F = {
 			isa = PBXGroup;
 			children = (
+				BA99129622521818001BD966 /* Default-568h@2x.png */,
+				BA99129A225219E6001BD966 /* AppDelegate.swift */,
+				BA99129B225219E6001BD966 /* ViewController.swift */,
+				BAAB1E1B22522AB400FF044A /* main.storyboard */,
+				BA9912A022521B7C001BD966 /* Info.plist */,
 				BABF16542244EC42002A368F /* takayanoobenkyou1 */,
 				BABF16532244EC42002A368F /* Products */,
 			);
@@ -52,11 +62,9 @@
 		BABF16542244EC42002A368F /* takayanoobenkyou1 */ = {
 			isa = PBXGroup;
 			children = (
-				BABF16552244EC42002A368F /* AppDelegate.swift */,
-				BABF16572244EC42002A368F /* ViewController.swift */,
 				BABF165C2244EC44002A368F /* Assets.xcassets */,
-				BABF16612244EC44002A368F /* Info.plist */,
-				BA991290224B945C001BD966 /* main.storyboard */,
+				BAAB1E222252327400FF044A /* tom190303DSC03603_TP_V4.jpg */,
+				BAAB1E202252326900FF044A /* GAK86_hutounokuroneko_TP_V4.jpg */,
 			);
 			path = takayanoobenkyou1;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 				TargetAttributes = {
 					BABF16512244EC42002A368F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -119,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA991291224B945C001BD966 /* main.storyboard in Resources */,
-				BABF165D2244EC44002A368F /* Assets.xcassets in Resources */,
+				BAAB1E232252327400FF044A /* tom190303DSC03603_TP_V4.jpg in Resources */,
+				BAAB1E1F2252312600FF044A /* Assets.xcassets in Resources */,
+				BAAB1E212252326900FF044A /* GAK86_hutounokuroneko_TP_V4.jpg in Resources */,
+				BAAB1E1C2252300400FF044A /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABF16582244EC42002A368F /* ViewController.swift in Sources */,
-				BABF16562244EC42002A368F /* AppDelegate.swift in Sources */,
+				BA99129E225219E6001BD966 /* ViewController.swift in Sources */,
+				BA99129D225219E6001BD966 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,15 +269,16 @@
 		BABF16652244EC44002A368F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = takayanoobenkyou1/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = takaya.sample.takayanoobenkyou1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -275,9 +287,9 @@
 		BABF16662244EC44002A368F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = takayanoobenkyou1/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

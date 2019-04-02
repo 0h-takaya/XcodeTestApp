@@ -11,13 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var countText: UILabel!
-    @IBOutlet weak var catImage: UIImageView!
+    @IBOutlet weak var catImageButton: UIButton!
     private var count: Int16 = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.view.backgroundColor = .yellow
-
         countText.text = String(count)
     }
 
@@ -29,13 +27,13 @@ class ViewController: UIViewController {
         count += 1
         countText.text = String(count)
         if(count == 10) {
-            catImage.image = UIImage(named: "GAK86_hutounokuroneko_TP_V4")
+            catImageButton.setImage(UIImage(named: "GAK86_hutounokuroneko_TP_V4.jpg"), for: .normal)
         }
-
     }
 
     @IBAction func initButtonTouchDown(sender: UIButton) {
         count = 0
         countText.text = String(count)
+        catImageButton.setImage(UIImage(named: "tom190303DSC03603_TP_V4.jpg"), for: .normal)
     }
 }

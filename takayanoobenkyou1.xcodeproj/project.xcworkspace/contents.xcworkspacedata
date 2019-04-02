@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:takayanoobenkyou1.xcodeproj">
+      location = "group:/Users/takaya/git/XcodeTestApp/main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

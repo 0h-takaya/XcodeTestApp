@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="08X-Kg-frF">
             <objects>
-                <viewController id="cWO-1c-r7N" customClass="ViewController" customModule="takayanoobenkyou1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cWO-1c-r7N" customClass="ViewController" customModule="takayanoobenkyou1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WTV-QV-Hlc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,9 +92,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tom190303DSC03603_TP_V4" translatesAutoresizingMaskIntoConstraints="NO" id="Otm-jw-pHT">
-                                <rect key="frame" x="143" y="225.99999999999997" width="128" height="127.66666666666666"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqk-Ea-rwI">
+                                <rect key="frame" x="30" y="191" width="355" height="120.66666666666669"/>
+                                <state key="normal" title="Button" image="tom190303DSC03603_TP_V4.jpg"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.94999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -103,30 +103,30 @@
                             <constraint firstItem="BhI-sh-OYz" firstAttribute="centerX" secondItem="WTV-QV-Hlc" secondAttribute="centerX" id="7To-Vx-MgM"/>
                             <constraint firstItem="uDr-dL-OB5" firstAttribute="trailing" secondItem="BhI-sh-OYz" secondAttribute="trailing" constant="20" id="AGH-3t-jMP"/>
                             <constraint firstItem="uDr-dL-OB5" firstAttribute="bottom" secondItem="raT-Pj-GPq" secondAttribute="bottom" constant="50" id="API-qk-RtL"/>
-                            <constraint firstItem="Otm-jw-pHT" firstAttribute="top" secondItem="uDr-dL-OB5" secondAttribute="top" constant="182" id="C9P-XW-KEV"/>
+                            <constraint firstItem="uDr-dL-OB5" firstAttribute="trailing" secondItem="Yqk-Ea-rwI" secondAttribute="trailing" constant="29" id="B27-Fr-WJ0"/>
+                            <constraint firstItem="Yqk-Ea-rwI" firstAttribute="top" secondItem="uDr-dL-OB5" secondAttribute="top" constant="147" id="DMd-Nk-ukg"/>
                             <constraint firstItem="xq0-Dh-efM" firstAttribute="centerY" secondItem="pfn-ha-6QE" secondAttribute="centerY" id="ECl-dW-A16"/>
                             <constraint firstItem="raT-Pj-GPq" firstAttribute="centerX" secondItem="WTV-QV-Hlc" secondAttribute="centerX" id="HB2-9i-C9j"/>
                             <constraint firstItem="raT-Pj-GPq" firstAttribute="top" secondItem="xq0-Dh-efM" secondAttribute="bottom" constant="135" id="KgX-w9-4T9"/>
                             <constraint firstItem="BhI-sh-OYz" firstAttribute="centerY" secondItem="WTV-QV-Hlc" secondAttribute="centerY" id="MDZ-J0-kzg"/>
-                            <constraint firstItem="Otm-jw-pHT" firstAttribute="leading" secondItem="uDr-dL-OB5" secondAttribute="leading" constant="143" id="VyG-gc-RVk"/>
+                            <constraint firstItem="BhI-sh-OYz" firstAttribute="top" secondItem="Yqk-Ea-rwI" secondAttribute="bottom" constant="80.670000000000002" id="W1G-yB-0ii"/>
+                            <constraint firstItem="Yqk-Ea-rwI" firstAttribute="leading" secondItem="uDr-dL-OB5" secondAttribute="leading" constant="30" id="Y2B-hL-TG7"/>
                             <constraint firstItem="xq0-Dh-efM" firstAttribute="leading" secondItem="uDr-dL-OB5" secondAttribute="leading" constant="66" id="cP2-MM-poX"/>
                             <constraint firstItem="uDr-dL-OB5" firstAttribute="trailing" secondItem="pfn-ha-6QE" secondAttribute="trailing" constant="66" id="mL6-sl-qyp"/>
-                            <constraint firstItem="uDr-dL-OB5" firstAttribute="trailing" secondItem="Otm-jw-pHT" secondAttribute="trailing" constant="143" id="mRX-Vz-UQZ"/>
-                            <constraint firstItem="BhI-sh-OYz" firstAttribute="top" secondItem="Otm-jw-pHT" secondAttribute="bottom" constant="38.670000000000002" id="v8h-KC-aFk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uDr-dL-OB5"/>
                     </view>
                     <connections>
-                        <outlet property="catImage" destination="Otm-jw-pHT" id="yVs-H4-8Wp"/>
+                        <outlet property="catImageButton" destination="Yqk-Ea-rwI" id="jb3-U5-2ad"/>
                         <outlet property="countText" destination="8Eu-wg-Zgo" id="UDD-fM-WD8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHe-Gw-Yt8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-200" y="-3"/>
+            <point key="canvasLocation" x="-194.20289855072465" y="-74.330357142857139"/>
         </scene>
     </scenes>
     <resources>
-        <image name="tom190303DSC03603_TP_V4" width="800" height="533"/>
+        <image name="tom190303DSC03603_TP_V4.jpg" width="800" height="533"/>
     </resources>
 </document>
